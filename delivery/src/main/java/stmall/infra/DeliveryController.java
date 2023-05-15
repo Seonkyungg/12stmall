@@ -41,7 +41,7 @@ public class DeliveryController {
     }
 
     @RequestMapping(
-        value = "deliveries/{id}/completedelivery",
+        value = "deliveries/{id}/returndelivery",
         method = RequestMethod.PUT,
         produces = "application/json;charset=UTF-8"
     )

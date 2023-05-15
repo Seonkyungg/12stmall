@@ -12,6 +12,7 @@ import stmall.domain.*;
 
 @RestController
 // @RequestMapping(value="/inventories")
+
 @Transactional
 public class InventoryController {
 
